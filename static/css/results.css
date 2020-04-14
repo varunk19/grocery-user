@@ -1,0 +1,32 @@
+a {
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 3.5vh;
+    padding-left: 3vw;
+}
+a:hover {
+    color: #cccccc;
+}
+.heading {
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 7vh;
+    margin-top: 2vh;
+}
+.main {
+    height: 70vh;
+    overflow: auto;
+}
+.content {
+    background-color: white;
+    word-wrap: break-word;
+    width: 70vw;
+    margin: auto auto;
+    text-align: center;
+    margin-bottom: 2vh;
+    padding: 1vh 1vw;
+    font-family: sans-serif;
+    font-size: 3vh;
+}

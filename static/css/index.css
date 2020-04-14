@@ -1,0 +1,88 @@
+form {
+    padding-top: 32vh;
+    text-align: center;
+}
+p {
+    font-size: 7vh;
+    margin-bottom: 2vh;
+    font-family: sans-serif;
+    color: #eeeeee;
+}
+.in {
+    width: 50vw;
+    padding: 0.5% 1%;
+    font-size: 100%;
+    border: 1px solid #dbdbdb;
+    border-radius: 7px;
+    margin-bottom: 3vh;
+}
+.in:hover {
+    background-color: #efefef;
+}
+.in:focus {
+    outline: 0px;
+}
+.btn {
+    background-color: #3399FF;
+    color: white;
+    border: 0px;
+    font-size: 2.5vh;
+    padding: 0.5% 2%;
+    padding-bottom: 0.6%;
+    border-radius: 5px;
+}
+.btn:hover {
+    background-color: #3380FF;
+}
+.btn:focus {
+    outline: 0px;
+}
+.collapsible {
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 3vh;
+    font-family: sans-serif;
+}
+  
+.active, .collapsible:hover {
+    color: #dbdbdb;
+}
+
+.collapsible:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+}
+
+.content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 25vw;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+.opt {
+    width: 90%;
+    padding: 2% 2%;
+    margin-bottom: 2%;
+    font-size: 100%;
+    border: 1px solid #dbdbdb;
+    border-radius: 7px;
+}
+.opt:hover {
+    background-color: #efefef;
+}
+.opt:focus {
+    outline: 0px;
+}

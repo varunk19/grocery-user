@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/master.css' %}">
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+</head>
+<body>
+    <form action="results/" method="POST">
+        {% csrf_token %}
+        <p>Enter Grocery Items</p>
+        <input class="in" type="text" name="param" placeholder="Ex: whole+milk,beef butter">
+        <br>
+        <span class="collapsible">Advanced Options(optional)</span>
+        <div class="content">
+            <input class="opt" type="text" value="0.0053" name="support" placeholder="Min Support Value"><br>
+            <input class="opt" type="text" value="0.20" name="confidence" placeholder="Min Confidence Value"><br>
+            <input class="opt" type="text" value="2" name="lift" placeholder="Min lift Value"><br>
+            <input class="opt" type="text" value="0" name="length" placeholder="Min length Value">
+        </div>
+        <br><br>
+        <input class="btn" type="submit" value="Search Combinations">
+    </form> 
+    <script src="{% static 'js/advanced.js' %}"></script>   
+</body>
+</html>
