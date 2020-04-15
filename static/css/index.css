@@ -86,3 +86,21 @@ p {
 .opt:focus {
     outline: 0px;
 }
+h5 {
+    margin-bottom: 1.7vh;
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 36.5vw;
+    font-family: sans-serif;
+}
+a {
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+a:hover {
+    color: #cccccc;
+}
