@@ -8,7 +8,8 @@ import re
 def index(request):
     return render(request,'index.html',{})
 def results(request):
-    groc=re.split('\s*[;,\s|]\s*', request.POST.get('param'))
+    inp=re.split(r'\s*[;,+|]\s*', request.POST.get('param'))
+    groc = [x.title() for x in inp]
     try:
         support=float(request.POST.get('support'))
         if support <= 0:
@@ -42,7 +43,7 @@ def results(request):
         res=[]
         for item in association_results:
             pair=item[0]
-            items=[str(x) for x in pair]
+            items=[str(x).title() for x in pair]
             for i in groc:
                 if i in items:
                     res.append(', '.join(items))
