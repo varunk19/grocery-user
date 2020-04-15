@@ -40,7 +40,7 @@ a:hover {
     left: 0;
     font-family: sans-serif;
 }
-h5 a {
+h6 a {
     padding-left: 0px;
     font-size: inherit;
     color: white;
@@ -56,9 +56,9 @@ h5 a {
     }
     .content {
         width: 60vw;
-        font-size: 1.5vh;
+        font-size: 1.7vh;
     }
     .main {
-        height: 70vh;
+        height: 74vh;
     }
 }
