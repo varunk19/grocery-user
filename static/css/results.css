@@ -16,7 +16,7 @@ a:hover {
     margin-top: 2vh;
 }
 .main {
-    height: 70vh;
+    height: 65vh;
     overflow: auto;
 }
 .content {
@@ -29,14 +29,15 @@ a:hover {
     padding: 1vh 1vw;
     font-family: sans-serif;
     font-size: 3vh;
+    border-radius: 20px;
 }
-h5 {
-    margin-bottom: 1.7vh;
+.footer {
+    width: 100%;
     color: white;
     text-align: center;
     position: fixed;
     bottom: 0;
-    left: 36.5vw;
+    left: 0;
     font-family: sans-serif;
 }
 h5 a {
@@ -45,4 +46,19 @@ h5 a {
     color: white;
     text-align: center;
     font-family: sans-serif;
+}
+@media only screen and (max-width: 1081px) {
+    a {
+        font-size: 1.5vh;
+    }
+    .heading {
+        font-size: 3vh;
+    }
+    .content {
+        width: 60vw;
+        font-size: 1.5vh;
+    }
+    .main {
+        height: 79vh;
+    }
 }

@@ -86,13 +86,13 @@ p {
 .opt:focus {
     outline: 0px;
 }
-h5 {
-    margin-bottom: 1.7vh;
+.footer {
+    width: 100%;
     color: white;
     text-align: center;
     position: fixed;
     bottom: 0;
-    left: 36.5vw;
+    left: 0;
     font-family: sans-serif;
 }
 a {
@@ -103,4 +103,19 @@ a {
 }
 a:hover {
     color: #cccccc;
+}
+@media only screen and (max-width: 1081px) {
+    p {
+        font-size: 4vh;
+    }
+    .collapsible {
+        font-size: 1vh;
+    }
+    .in {
+        margin-bottom: 1vh;
+        padding-bottom: 1%;
+    }
+    .btn {
+        font-size: 1.5vh;
+    }
 }
