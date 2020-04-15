@@ -109,13 +109,13 @@ a:hover {
         font-size: 4vh;
     }
     .collapsible {
-        font-size: 1vh;
+        font-size: 2vh;
     }
     .in {
         margin-bottom: 1vh;
         padding-bottom: 1%;
     }
     .btn {
-        font-size: 1.5vh;
+        font-size: 2vh;
     }
 }
