@@ -4,17 +4,10 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
-@media only screen and (max-width: 1080px) {
-    body {
-        background-image: url('../images/back1080p.jpeg');
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-}
-@media only screen and (min-height: 1921px) {
+@media only screen and (max-width: 1081px) {
     body {
         background-image: url('../images/back2340p.jpeg');
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: 100% 100vh;
     }
 }
